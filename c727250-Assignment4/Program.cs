@@ -37,7 +37,7 @@ namespace c727250_Assignment4
                 {
                     Console.WriteLine(ln);
                     Beowulf.Add(ln);
-                    
+                    counter++;
                 }
                 file.Close();
                 Console.WriteLine($"File has {counter} lines.");
